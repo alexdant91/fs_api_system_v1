@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "id": "ff2ad048-424f-4a2d-9357-0757465d435c",
+      "first_name": "Paolo",
+      "last_name": "Rossi",
+      "email": "paolo.rossi@example.com",
+      "password": "1234"
+    },
+    {
+      "id": "0462241f-e3a2-4123-b6ff-ad37a2c0418d",
+      "first_name": "Mario",
+      "last_name": "Bianchi",
+      "email": "mario.bianchi@example.com",
+      "password": "1234"
+    }
+  ],
+  "products": [
+    {
+      "id": 0,
+      "title": "iPhone 13 Pro Max",
+      "brand": "Apple",
+      "image": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-13-Pro_iPhone-13-Pro-Max_09142021_inline.jpg.large_2x.jpg",
+      "price": 1300
+    },
+    {
+      "id": 1,
+      "title": "Xiaomi 12 Pro",
+      "brand": "Xiaomi",
+      "image": "https://i.ebayimg.com/images/g/VwgAAOSwoxJhzRgt/s-l1600.jpg",
+      "price": 700
+    },
+    {
+      "id": 2,
+      "title": "Galaxy S21 FE 5G",
+      "brand": "Samsung",
+      "image": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/samsung/Samsung-Galaxy-S21-FE-5G/Graphite/Samsung-Galaxy-S21-FE-5G-Graphite-frontimage.png;",
+      "price": 1090
+    }
+  ],
+  "carts": {
+    "ff2ad048-424f-4a2d-9357-0757465d435c": [
+      {
+        "id": "5385cf91-66f8-4c83-956d-f53171b65bb5",
+        "productId": 0,
+        "qnt": 1
+      },
+      {
+        "id": "c57f99ad-9807-4647-a3fb-ebf817bbe639",
+        "productId": 1,
+        "qnt": 3
+      },
+      {
+        "id": "3e74f86a-c3d0-4ba0-89b4-8cdc31a43f6e",
+        "productId": 2,
+        "qnt": 2
+      }
+    ],
+    "0462241f-e3a2-4123-b6ff-ad37a2c0418d": [
+      {
+        "id": "a002ba2c-058d-4a24-89b2-4bf0368c4a7c",
+        "productId": 1,
+        "qnt": 1
+      },
+      {
+        "id": "f198beb8-c099-4019-bf2c-4263200162cd",
+        "productId": 2,
+        "qnt": 1
+      },
+      {
+        "id": "37a0dbcd-d3c0-4221-9a5f-f774a52518da",
+        "productId": 0,
+        "qnt": 3
+      }
+    ]
+  },
+  "promo-codes": [
+    {
+      "code": "f65e9a7d",
+      "name": "PROMO €100",
+      "type": "amount",
+      "value": 100
+    },
+    {
+      "code": "f1664614",
+      "name": "PROMO 20%",
+      "type": "percentage",
+      "value": 20
+    }
+  ]
+}
